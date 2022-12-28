@@ -339,3 +339,6 @@ let (g1 : graphe) =
     (*g*)
     [ (4, Velo, g) ] (*h*);
   |]
+
+
+let amin = "lpb"
