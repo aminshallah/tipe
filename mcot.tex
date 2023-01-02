@@ -1,0 +1,85 @@
+\documentclass[a4paper, 11pt]{article}
+\title{Un algorithme de Covoiturage}
+\author{Amin Belfkira\\Candidat 12135}
+\date{}
+
+% Langue française
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[frenchb]{babel}
+
+% Couleurs
+\usepackage{xcolor}
+\definecolor{beaverred}{RGB}{204,0,0}
+\definecolor{beaverblue}{RGB}{0,68,204}
+\definecolor{beavergreen}{RGB}{0,153,0}
+
+\usepackage{listings}
+\lstdefinestyle{simple}{
+    extendedchars=true,
+    basicstyle=\ttfamily,
+    backgroundcolor=,
+    commentstyle=\color{beavergreen},
+    keywordstyle=\color{beaverblue},
+    numberstyle=\ttfamily\color[rgb]{0.5,0.5,0.5},
+    breakatwhitespace=false,
+    breaklines=true,
+    captionpos=b,
+    keepspaces=true,
+    numbers=left,
+    numbersep=7pt,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    tabsize=4,
+    columns=fixed
+}
+\lstset{style=simple}
+
+\usepackage{hyperref} 
+\usepackage{multicol}
+\usepackage{parskip}
+\usepackage[toc]{appendix}
+\pagestyle{plain}
+\usepackage{geometry}
+\geometry{includehead, includefoot}
+\geometry{top=1.5cm, bottom=1.5cm, left=3cm, right=3cm}
+\usepackage[backend=biber]{biblatex}
+\addbibresource{biblio.bib}
+\usepackage{float}
+\bibstyle{plain}
+
+
+\begin{document}
+
+
+\subsection*{Positionnement thématique (ETAPE 1)}
+
+\hspace{1cm} \textit{INFORMATIQUE}\\
+
+\subsection*{Mots-clés (ETAPE 1)}
+
+\begin{multicols}{2}
+  \textbf{Mots-clés} (en français)
+
+  \textit{Covoiturage} \\
+  \textit{Algorithme} \\
+  \textit{Conception d' une solution} \\
+  \textit{Rencontre} \\
+  \textit{Séparation} \\
+
+  \textbf{Mots-clés} (en anglais)
+
+  \textit{Carpooling} \\
+  \textit{Algorithm} \\
+  \textit{Developping a solution} \\
+  \textit{Meeting point} \\
+  \textit{Separation point} \\
+\end{multicols}
+
+
+\cite{car}
+
+\printbibliography
+
+\end{document}
